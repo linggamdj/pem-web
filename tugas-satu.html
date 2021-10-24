@@ -1,50 +1,76 @@
-<!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Tugas Satu</title>
     </head>
     <body>
+        <form method="POST">
+            <label>Pilih Nama</label>
+            <select>
+                <option value="ana">Ana</option>
+                <option value="febriyan">Febriyan</option>
+                <option value="lingga">Lingga</option>
+                <option value="rayhan">Rayhan</option>
+                <option value="sultan">Sultan</option>
+            </select>
+            <label>IPK Lokal</label>
+            <input type="text" size="6" />
+            <label>IPK Utama</label>
+            <input type="text" size="6" />
+            <input type="submit" value="Tambahkan" />
+        </form>
+
         <table border="1px" cellspacing="0" width="70%">
-            <tr>
-                <th rowspan="2" align="center">NAMA</th>
+            <tr align="center">
+                <th rowspan="2">NAMA</th>
                 <th colspan="2">MATERI</th>
                 <th colspan="2">IPK</th>
             </tr>
-            <tr align="left">
+            <tr align="center">
                 <th>WORKSHOP</th>
                 <th>KURSUS</th>
                 <th>LOKAL</th>
                 <th>UTAMA</th>
             </tr>
             <tr>
-                <td align="center">Adi</td>
+                <td>Ana</td>
                 <td>Introduction to XML</td>
                 <td>Web Programming With ASP</td>
-                <td align="center">3,23</td>
-                <td align="center">3,47</td>
+                <td>3,23</td>
+                <td>3,47</td>
             </tr>
             <tr>
-                <td rowspan="2" align="center">Ani</td>
+                <td rowspan="2">Febriyan</td>
                 <td>Visual Basic With Database</td>
-                <td rowspan="2" align="center">Visual Basic With SQL Server</td>
-                <td rowspan="2" align="center">3,53</td>
-                <td rowspan="2" align="center">3,64</td>
+                <td rowspan="2">Visual Basic With SQL Server</td>
+                <td rowspan="2">3,53</td>
+                <td rowspan="2">3,64</td>
             </tr>
             <tr>
                 <td>Oracle Developer Report</td>
             </tr>
             <tr>
-                <td rowspan="2" align="center">Ali</td>
-                <td rowspan="2" align="center">Visual Basics With Database</td>
+                <td>Lingga</td>
+                <td>Introduction to React</td>
+                <td>Web Programming With Bootstrap</td>
+                <td>3,48</td>
+                <td>3,07</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Rayhan</td>
+                <td rowspan="2">Visual Basics With Database</td>
                 <td>Introduction to Oracle: SQL and PL/SQL</td>
-                <td rowspan="2" align="center">3,66</td>
-                <td rowspan="2" align="center">3,39</td>
+                <td rowspan="2">3,66</td>
+                <td rowspan="2">3,39</td>
             </tr>
             <tr>
-                <td>Oracle Developer Report</td>
+                <td>Visual Basic With SQL Server</td>
+            </tr>
+            <tr>
+                <td>Sultan</td>
+                <td>Flutter With MongoDB</td>
+                <td>Web Programming With ASP</td>
+                <td>3,50</td>
+                <td>3,27</td>
             </tr>
         </table>
     </body>
