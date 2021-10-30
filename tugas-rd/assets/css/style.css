@@ -1,0 +1,114 @@
+@import url("https://fonts.google.com/specimen/Roboto");
+@import url("https://fonts.google.com/specimen/Quicksand?query=quicksand");
+
+body {
+    margin: 0;
+    font-family: "Quicksands", sans-serif;
+}
+
+.container {
+    width: 90%;
+    overflow: auto;
+    margin: auto;
+}
+
+.text-container {
+    margin: auto;
+    margin-left: 20px;
+    font-size: larger;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.text-container h1 {
+    line-height: 30px;
+}
+
+.text-container .date {
+    font-size: 15px;
+    margin-top: -20px;
+}
+
+.navbar {
+    width: 100%;
+    overflow: auto;
+    background-color: #364f6b;
+    margin-bottom: 50px;
+}
+
+.logo {
+    font-family: "Roboto", sans-serif;
+    float: left;
+    margin: 20px auto 10px;
+    font-size: 32px;
+    font-weight: bold;
+    color: #f5f5f5;
+}
+
+.navigation {
+    float: right;
+    margin: 30px auto;
+}
+
+.navigation li {
+    float: right;
+    margin-left: 20px;
+    font-size: 18px;
+    display: block;
+}
+
+.navigation li a {
+    color: #f5f5f5;
+    text-decoration: none;
+}
+
+.navigation li a:hover {
+    color: darkgray;
+}
+
+.main {
+    margin: 0px auto;
+}
+
+.desc {
+    cursor: pointer;
+    align-items: center;
+}
+
+.desc h1 {
+    margin: 0 auto 20px;
+}
+
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: inherit;
+    /* margin: auto; */
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+
+    background-color: #f5f5f5;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    margin-top: 50px;
+    padding: 10px 0;
+    color: white;
+    background-color: #364f6b;
+    text-align: center;
+}
